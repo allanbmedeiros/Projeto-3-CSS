@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+}
+.lado-esquerdo{
+    display: inline-block;
+    width: 59%;
+    padding-left: 136px;
+    position: relative;
+    top: 14%;
+}
+.lado-direito{
+    display: inline-block;
+    height: 100vh;
+    width: 40%;
+    background-color: rgba(93, 93, 125, 0.16);
+}
+h1{
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+    margin-top: 150px;
+}
+p{
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    width: 540px;
+    margin: 15px 0;
+}
+button{
+    font-size: 24px;
+    color: #ffffff;
+    width: 269px;
+    height: 62px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(148, 153, 234, 1);
+    cursor: pointer;
+}
+div{
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    padding-left: 57px;
+    margin-top: 25px;
+}
+.work{
+    color: rgba(93, 93, 125, 0.4);
+}
+a{
+    margin-right: 41px;
+    cursor: pointer;
+}
+img{
+    width: 456px;
+    height: 561.95px;
+    position: relative;
+    right: 18%;
+    top: 15%;
+}
+@media screen and (max-width: 1250px){
+    main{
+        padding: 0;
+        margin: 0;
+    }
+    .lado-esquerdo{
+        display: block;
+        height: 50vh;
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+        position: initial;
+        padding-left: 0;
+    }
+    .lado-direito{
+        display: block;
+        width: 100%;
+        height: 49.5%;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        font-size: 45px;
+        margin-top: 41px;
+        width: 268px;
+        display: inline-block;
+    }
+    p{
+        width: 296px;
+        font-size: 20px;
+        line-height: 24px;
+        display: inline-block;
+    }
+    button{
+        margin-top: 30px;
+    }
+    div{
+        display: none;
+    }
+    img{
+        width: 271px;
+        height: 323px;
+        position: initial;
+        margin-top: 15%;
+    }
+}
